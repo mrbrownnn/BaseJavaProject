@@ -37,8 +37,6 @@ public class User extends DateAudit {
 	private String name;
 
 	@Column(name = "phone", unique = true)
-	// unique sử dụng khi không muốn có 2 user cùng số điện thoại
-	// để tránh xuất hiện lỗi trên database, không phải làm thêm phần xử lý ở code
 	private String phone;
 
 	private String imageUrl;
@@ -77,5 +75,4 @@ public class User extends DateAudit {
 		this.isLocked = isLocked;
 		this.isActive = isActive;
 	}
-	// giá trị user trả cho client
 }

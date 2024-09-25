@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
 --
--- Host: localhost  DELIMITER  Database: booking_driver
+-- Host: localhost    Database: booking_driver
 -- ------------------------------------------------------
 -- Server version	5.7.44
 

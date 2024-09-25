@@ -21,4 +21,3 @@ public class AuthResponse {
         this.accessToken = accessToken;
     }
 }
-// bo di vi bo oauth2

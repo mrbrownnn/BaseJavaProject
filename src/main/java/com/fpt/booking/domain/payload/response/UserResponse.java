@@ -24,5 +24,3 @@ public class UserResponse {
     private String imageUrl;
 
 }
-// tao cac bien de nhan gia tri tu client
-// xuat duoi dang file json

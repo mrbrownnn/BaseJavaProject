@@ -7,6 +7,5 @@ public class Constant {
         public static final String API_STATUS_BAD_REQUEST_STR = "400";
         public static final String API_STATUS_INTERNAL_SERVER_ERROR_STR = "500";
     }
-    // thong bao loi api response, neu vuot qua timelimit, hoac loi server
 
 }

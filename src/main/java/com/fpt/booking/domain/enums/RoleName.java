@@ -4,7 +4,6 @@ public enum RoleName {
     ROLE_USER("ROLE_USER"),
     ROLE_ADMIN("ROLE_ADMIN"),
     ROLE_DRIVER("ROLE_DRIVER");
-    // gán 3 vai tro cho user la user thuong, admin va driver
 
 
     private String value;

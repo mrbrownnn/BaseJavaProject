@@ -128,7 +128,6 @@ public class BaseRepository {
         return list.isEmpty() ? null : list.get(0);
     }
 
-
     public static <T> Optional<T> getFirstOptionalResultNativeQuery(EntityManager em, String strQuery, Map<String, Object> params, Class<T> clazz) {
         T t = getFirstResultNativeQuery(em, strQuery, params, clazz);
         return t == null ? Optional.empty() : Optional.of(t);

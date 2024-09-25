@@ -15,4 +15,3 @@ public class MessageUtils {
     public static final String ACCOUNT_NOT_ACTIVE = "error.account.not.active";
     public static final String ACCOUNT_NOT_FOUND = "error.account.not.found";
 }
-// tao ra cac message de tra ve cho client khi co loi xay ra

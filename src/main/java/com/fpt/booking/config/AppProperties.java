@@ -28,8 +28,6 @@ public class AppProperties {
 
         public void setTokenExpirationMsec(long tokenExpirationMsec) {
             this.tokenExpirationMsec = tokenExpirationMsec;
-            // expiration time setting
-            // token secret setting, include time to live
         }
     }
 
@@ -43,8 +41,6 @@ public class AppProperties {
         public OAuth2 authorizedRedirectUris(List<String> authorizedRedirectUris) {
             this.authorizedRedirectUris = authorizedRedirectUris;
             return this;
-            // two factor authentication
-            // remove oauth2
         }
     }
 
